@@ -1,0 +1,41 @@
+ /* Breakpoints: 1024px . 768px . 480px*/
+
+ @media (max-width: 1024px) {
+    .section1 {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .div-left {
+        margin-bottom: 50px;
+    }
+    .waveme {
+        margin-left: 150px;
+    }
+    .div-top {
+        width: 90%;
+        vertical-align: middle;
+    }
+    .div1 {
+        margin-bottom: 50px;
+    }
+}
+
+ @media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .h5 {
+        width: 100%;
+    }
+ }
+
+ @media (max-width: 480px) {
+    .h2-s1 {
+        font-size: 40px;
+        width: 100%;
+        
+    }
+}
